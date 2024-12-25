@@ -38,18 +38,19 @@ A boilerplate for building multilingual React applications with Material-UI (MUI
    ```bash
    npm run dev
    ```
+
    The project will be available at: [http://localhost:5173/](http://localhost:5173/)
+
 ---
 
 ## Scripts
 
-| Command         | Description                                |
-|-----------------|--------------------------------------------|
-| `npm run dev`   | Starts the development server.             |
-| `npm run build` | Builds the application for production.     |
-| `npm run lint`  | Runs ESLint for code quality checks.       |
-| `npm run preview` | Previews the production build.           |
-
+| Command           | Description                            |
+| ----------------- | -------------------------------------- |
+| `npm run dev`     | Starts the development server.         |
+| `npm run build`   | Builds the application for production. |
+| `npm run lint`    | Runs ESLint for code quality checks.   |
+| `npm run preview` | Previews the production build.         |
 
 ---
 
@@ -66,18 +67,21 @@ This project uses **i18next** for multilingual support:
 ## Dependencies
 
 **Core Libraries:**
+
 - `@mui/material` and `@mui/icons-material` for Material-UI components.
 - `react-router-dom` for navigation.
 - `mobx` and `mobx-react-lite` for state management.
 - `i18next` and `react-i18next` for multilingual support.
 
 **Development Tools:**
+
 - `vite` for building and serving the app.
 - `eslint` and `prettier` for maintaining code quality.
 - `husky` for managing pre-commit hooks.
 - `typescript` for type-safe development.
 
 ---
+
 ## Author
 
 **Marina Lebedeva**
@@ -86,6 +90,7 @@ This project uses **i18next** for multilingual support:
 - Email: [marina@mj-dev.org]
 
 ---
+
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
