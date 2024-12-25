@@ -15,6 +15,7 @@ A boilerplate for building multilingual React applications with Material-UI (MUI
 - **TypeScript**: Type-safe development experience.
 - **Prettier & ESLint**: Enforced coding standards and auto-formatting.
 - **Husky**: Pre-commit hooks for maintaining code quality.
+- **Jest**: Testing framework for writing and running tests.
 
 ---
 
@@ -43,14 +44,33 @@ A boilerplate for building multilingual React applications with Material-UI (MUI
 
 ---
 
+## Testing
+
+This project uses **Jest** for unit testing:
+
+1. Write your tests in files with the `.test.ts` or `.spec.ts` extension.
+2. Tests are typically located in the `__tests__` folder or alongside relevant components.
+3. To run tests, use the following command:
+
+   ```bash
+   npm run test
+   ```
+
+   Jest will automatically find and run all test files.
+
+---
+
 ## Scripts
 
-| Command           | Description                            |
-| ----------------- | -------------------------------------- |
-| `npm run dev`     | Starts the development server.         |
-| `npm run build`   | Builds the application for production. |
-| `npm run lint`    | Runs ESLint for code quality checks.   |
-| `npm run preview` | Previews the production build.         |
+| Command           | Description                                                                                          |
+| ----------------- | ---------------------------------------------------------------------------------------------------- |
+| `npm run dev`     | Starts the development server using Vite.                                                            |
+| `npm run build`   | Builds the application for production, first compiling TypeScript and then using Vite for the build. |
+| `npm run lint`    | Runs ESLint to check for code quality and potential issues.                                          |
+| `npm run format`  | Formats the code using Prettier according to the project’s style guide.                              |
+| `npm run preview` | Previews the production build locally using Vite.                                                    |
+| `npm run test`    | Runs Jest tests to check the correctness of the application.                                         |
+| `npm run prepare` | Prepares Husky for pre-commit hooks to ensure code quality before commits.                           |
 
 ---
 
@@ -79,6 +99,7 @@ This project uses **i18next** for multilingual support:
 - `eslint` and `prettier` for maintaining code quality.
 - `husky` for managing pre-commit hooks.
 - `typescript` for type-safe development.
+- `jest` for testing.
 
 ---
 
