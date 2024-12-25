@@ -6,15 +6,14 @@ const prettier = require('eslint-plugin-prettier');
 
 module.exports = [
   {
-    ignores: ['dist'], // Исключение папки dist из проверки
+    ignores: ['dist'],
   },
   {
-    // Правила для клиентских файлов (React, TypeScript)
     files: ['**/*.{ts,tsx}'],
     languageOptions: {
       parser: require('@typescript-eslint/parser'),
       parserOptions: {
-        project: './tsconfig.app.json', // Используем клиентский tsconfig
+        project: './tsconfig.app.json',
         ecmaVersion: 2020,
         sourceType: 'module',
         ecmaFeatures: {
@@ -34,16 +33,16 @@ module.exports = [
         'warn',
         { allowConstantExport: true },
       ],
-      'prettier/prettier': 'error', // Применяем правила Prettier
+      'prettier/prettier': 'error',
     },
   },
   {
-    // Отдельное правило для Vite конфигурации
+    // rule for Vite configuration
     files: ['vite.config.ts'],
     languageOptions: {
       parser: require('@typescript-eslint/parser'),
       parserOptions: {
-        project: './tsconfig.node.json', // Используем серверный tsconfig
+        project: './tsconfig.node.json',
         ecmaVersion: 2022,
         sourceType: 'module',
       },
@@ -52,7 +51,7 @@ module.exports = [
       prettier,
     },
     rules: {
-      'prettier/prettier': 'error', // Применяем правила Prettier
+      'prettier/prettier': 'error',
     },
   },
 ];
