@@ -7,5 +7,6 @@
   "printWidth": 150,
   "tabWidth": 2,
   "arrowParens": "always",
-  "endOfLine": "lf"
+  "endOfLine": "lf",
+  "jsdocSpaces": 1
 }

@@ -3,13 +3,14 @@ const globals = require('globals');
 const reactHooks = require('eslint-plugin-react-hooks');
 const reactRefresh = require('eslint-plugin-react-refresh');
 const prettier = require('eslint-plugin-prettier');
+const jsdoc = require('eslint-plugin-jsdoc');
 
 module.exports = [
   {
     ignores: ['dist'],
   },
   {
-    files: ['**/*.{ts,tsx}'],
+    files: ['**/*.{js,ts,tsx}'],
     languageOptions: {
       parser: require('@typescript-eslint/parser'),
       parserOptions: {
@@ -26,11 +27,13 @@ module.exports = [
       'react-hooks': reactHooks,
       'react-refresh': reactRefresh,
       prettier,
+      jsdoc,
     },
     rules: {
       ...reactHooks.configs.recommended.rules,
       'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
       'prettier/prettier': 'error',
+      'jsdoc/require-description': 'warn',
     },
   },
   {
