@@ -7,3 +7,4 @@
 ## Modules
 
 - [App](App/README.md)
+- [i18n](i18n/README.md)

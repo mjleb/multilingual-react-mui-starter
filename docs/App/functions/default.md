@@ -8,14 +8,15 @@
 
 > **default**(): `Element`
 
-Компонент App, который отображает приветственное сообщение.
+The App component that renders a welcome message after the i18n initialization.
+It displays "loading" until i18n is initialized and then shows the translated welcome message.
 
 ## Returns
 
 `Element`
 
-Возвращает JSX, который рендерит строку "hello world".
+Returns JSX that either renders a loading message or the translated welcome message based on i18n initialization.
 
 ## Defined in
 
-[App.tsx:7](https://github.com/mjleb/multilingual-react-mui-starter/blob/e53acf70825137433e762004c2e57961e4c651a2/src/App.tsx#L7)
+[src/App.tsx:8](https://github.com/mjleb/multilingual-react-mui-starter/blob/22a0fc06458fa60f4237afdfb9e64b4839869f65/src/App.tsx#L8)
