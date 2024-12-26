@@ -33,4 +33,4 @@ Returns JSX that displays the current language and a set of buttons for changing
 
 ## Defined in
 
-[src/components/i18n/WLanguageSwitcher.tsx:30](https://github.com/mjleb/multilingual-react-mui-starter/blob/f9768c32f7022f5b56eaefcf4828039c45f21144/src/components/i18n/WLanguageSwitcher.tsx#L30)
+[src/components/i18n/WLanguageSwitcher.tsx:30](https://github.com/mjleb/multilingual-react-mui-starter/blob/76e05b925fd2fa28fa57c7afd68d00a071acaf64/src/components/i18n/WLanguageSwitcher.tsx#L30)
