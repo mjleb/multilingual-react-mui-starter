@@ -1,0 +1,55 @@
+import { useTranslation } from 'react-i18next';
+import { availableLanguages } from '../../app/i18n';
+
+interface Country {
+  name: string;
+  code: string;
+}
+
+interface IMenuItem {
+  id: string;
+  label: string;
+  className?: string;
+}
+
+const WLanguageSwitcher = () => {
+  const { i18n } = useTranslation();
+
+  const getCurrentLanguageName = (languages: Country[], currentLanguageCode: string) => {
+    let current = currentLanguageCode.split('-')[0];
+    const language = languages.find((lang: Country) => lang.code === current);
+    return language ? language.name : '-';
+  };
+
+  const items: IMenuItem[] = availableLanguages.map((language) => ({
+    id: language.code,
+    label: language.name,
+    className: language.code === i18n.language.split('-')[0] ? 'active' : '',
+  }));
+
+  return (
+    <>
+      <div>
+        <b>{i18n.t('main:language')} </b>: {getCurrentLanguageName(availableLanguages, i18n.language)}
+      </div>
+      <div className="language__select">
+        {items.map((language) => {
+          return (
+            <button
+              key={language.id}
+              disabled={!i18n.isInitialized}
+              className={language.className}
+              onClick={() => {
+                i18n.changeLanguage(language.id);
+              }}
+            >
+              {language.label}
+            </button>
+          );
+        })}
+      </div>
+    </>
+  );
+};
+
+export default WLanguageSwitcher;
