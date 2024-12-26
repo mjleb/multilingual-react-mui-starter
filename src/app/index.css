@@ -1,0 +1,12 @@
+div {
+  margin-bottom: 1rem;
+}
+.language__select {
+  display: flex;
+  justify-content: flex-start;
+  gap: 3px;
+  flex-wrap: wrap;
+}
+.active {
+  background-color: #d4ffd5;
+}
