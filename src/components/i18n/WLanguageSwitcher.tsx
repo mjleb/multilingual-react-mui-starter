@@ -36,16 +36,29 @@ const WLanguageSwitcher = () => {
     return language ? language.name : '-';
   };
 
-  const items: IMenuItem[] = availableLanguages.map((language) => ({
+  const items: IMenuItem[] = (availableLanguages as Country[]).map((language) => ({
     id: language.code,
     label: language.name,
     className: language.code === i18n.language.split('-')[0] ? 'active' : '',
   }));
 
+  if (!i18n.isInitialized) {
+    // Кнопки отображаются, но отключены
+    return (
+      <div>
+        {items.map((lang) => (
+          <button key={lang.id} disabled>
+            {lang.label}
+          </button>
+        ))}
+      </div>
+    );
+  }
+
   return (
     <>
       <div>
-        <b>{i18n.t('main:language')} </b>: {getCurrentLanguageName(availableLanguages, i18n.language)}
+        <b>{i18n.t('main:language')} </b>: {getCurrentLanguageName(availableLanguages as Country[], i18n.language)}
       </div>
       <div className="language__select">
         {items.map((language) => {

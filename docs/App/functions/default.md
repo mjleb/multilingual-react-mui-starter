@@ -19,4 +19,4 @@ Returns JSX that either renders a loading message or the translated welcome mess
 
 ## Defined in
 
-[src/App.tsx:9](https://github.com/mjleb/multilingual-react-mui-starter/blob/85df94b77e8ef5d20e4265014a0d038932386f59/src/App.tsx#L9)
+[src/App.tsx:10](https://github.com/mjleb/multilingual-react-mui-starter/blob/f9768c32f7022f5b56eaefcf4828039c45f21144/src/App.tsx#L10)
