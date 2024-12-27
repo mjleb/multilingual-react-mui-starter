@@ -11,6 +11,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
 import { StyledHeader, StyledHeaderAppBar } from '../app/themeMUI';
 import ThemeSwitcher from './mui/ThemeSwitcher';
+import WLanguageSwitcherMUI from './i18n/WLanguageSwitcherMUI';
 
 const CHeaderMain: React.FC = () => {
   const [open, setOpen] = React.useState(false);
@@ -59,15 +60,17 @@ const CHeaderMain: React.FC = () => {
               alignItems: 'center',
             }}
           >
+            <WLanguageSwitcherMUI />
+            <ThemeSwitcher />
             <Button color="primary" variant="text" size="small">
               Sign in
             </Button>
             <Button color="primary" variant="contained" size="small">
               Sign up
             </Button>
-            <ThemeSwitcher />
           </Box>
           <Box sx={{ display: { xs: 'flex', md: 'none' }, gap: 1 }}>
+            <WLanguageSwitcherMUI />
             <ThemeSwitcher size="medium" />
             <IconButton aria-label="Menu button" onClick={toggleDrawer(true)}>
               <MenuIcon />

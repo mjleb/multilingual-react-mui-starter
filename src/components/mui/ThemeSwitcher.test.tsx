@@ -1,5 +1,5 @@
 import { render, screen, fireEvent, waitFor } from '@testing-library/react';
-import ThemeSwitcher from './ThemeSwitcher'; // путь к вашему компоненту
+import ThemeSwitcher from './ThemeSwitcher';
 import { useColorScheme } from '@mui/material/styles';
 import '@testing-library/jest-dom';
 import { createTheme, ThemeProvider } from '@mui/material/styles';

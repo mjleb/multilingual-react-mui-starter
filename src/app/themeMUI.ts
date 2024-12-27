@@ -62,6 +62,7 @@ export const StyledHeader = styled(Toolbar)(({ theme }) => ({
   backgroundColor: alpha(theme.palette.background.default, 0.4),
   boxShadow: theme.shadows[1],
   padding: '8px 12px',
+  color: theme.palette.text.primary,
 }));
 
 export const StyledHeaderAppBar = {

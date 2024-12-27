@@ -32,4 +32,4 @@ ThemeSwitcher
 
 ## Defined in
 
-[src/app/themeMUI.ts:90](https://github.com/mjleb/multilingual-react-mui-starter/blob/e892d688ddde20005d4112502bd1306a5cf2654c/src/app/themeMUI.ts#L90)
+[src/app/themeMUI.ts:91](https://github.com/mjleb/multilingual-react-mui-starter/blob/ca91143561b48da49085d72a39ca275cd51f61e7/src/app/themeMUI.ts#L91)
