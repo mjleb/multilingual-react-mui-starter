@@ -1,6 +1,6 @@
 [**multilingual-react-mui-starter v0.0.0**](../../../../README.md)
 
-***
+---
 
 [multilingual-react-mui-starter](../../../../modules.md) / [components/mui/ThemeSwitcher](../README.md) / default
 
@@ -41,4 +41,4 @@ return (
 
 ## Defined in
 
-[src/components/mui/ThemeSwitcher.tsx:32](https://github.com/mjleb/multilingual-react-mui-starter/blob/124b84c276384378be75af0ed2bc0212445e1836/src/components/mui/ThemeSwitcher.tsx#L32)
+[src/components/mui/ThemeSwitcher.tsx:32](https://github.com/mjleb/multilingual-react-mui-starter/blob/a8952bf59aef2b527f753160c05cc3112010bbf8/src/components/mui/ThemeSwitcher.tsx#L32)

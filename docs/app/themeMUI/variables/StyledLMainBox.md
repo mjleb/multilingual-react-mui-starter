@@ -1,6 +1,6 @@
 [**multilingual-react-mui-starter v0.0.0**](../../../README.md)
 
-***
+---
 
 [multilingual-react-mui-starter](../../../modules.md) / [app/themeMUI](../README.md) / StyledLMainBox
 
@@ -42,4 +42,4 @@ LMain styles
 
 ## Defined in
 
-[src/app/themeMUI.ts:34](https://github.com/mjleb/multilingual-react-mui-starter/blob/124b84c276384378be75af0ed2bc0212445e1836/src/app/themeMUI.ts#L34)
+[src/app/themeMUI.ts:34](https://github.com/mjleb/multilingual-react-mui-starter/blob/a8952bf59aef2b527f753160c05cc3112010bbf8/src/app/themeMUI.ts#L34)

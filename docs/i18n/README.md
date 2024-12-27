@@ -1,6 +1,6 @@
 [**multilingual-react-mui-starter v0.0.0**](../README.md)
 
-***
+---
 
 [multilingual-react-mui-starter](../modules.md) / i18n
 
@@ -11,5 +11,5 @@ It is used for loading translations from the server and detecting the user's lan
 
 ## See
 
- - https://www.i18next.com/
- - https://react.i18next.com/
+- https://www.i18next.com/
+- https://react.i18next.com/

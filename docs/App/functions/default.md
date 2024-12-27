@@ -1,6 +1,6 @@
 [**multilingual-react-mui-starter v0.0.0**](../../README.md)
 
-***
+---
 
 [multilingual-react-mui-starter](../../modules.md) / [App](../README.md) / default
 
@@ -19,4 +19,4 @@ Returns JSX that either renders a loading message or the translated welcome mess
 
 ## Defined in
 
-[src/App.tsx:11](https://github.com/mjleb/multilingual-react-mui-starter/blob/124b84c276384378be75af0ed2bc0212445e1836/src/App.tsx#L11)
+[src/App.tsx:11](https://github.com/mjleb/multilingual-react-mui-starter/blob/a8952bf59aef2b527f753160c05cc3112010bbf8/src/App.tsx#L11)

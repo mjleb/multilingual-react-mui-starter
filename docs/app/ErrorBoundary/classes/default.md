@@ -1,6 +1,6 @@
 [**multilingual-react-mui-starter v0.0.0**](../../../README.md)
 
-***
+---
 
 [multilingual-react-mui-starter](../../../modules.md) / [app/ErrorBoundary](../README.md) / default
 
@@ -63,7 +63,7 @@ The props for the ErrorBoundary component.
 
 #### Defined in
 
-[src/app/ErrorBoundary.tsx:52](https://github.com/mjleb/multilingual-react-mui-starter/blob/124b84c276384378be75af0ed2bc0212445e1836/src/app/ErrorBoundary.tsx#L52)
+[src/app/ErrorBoundary.tsx:52](https://github.com/mjleb/multilingual-react-mui-starter/blob/a8952bf59aef2b527f753160c05cc3112010bbf8/src/app/ErrorBoundary.tsx#L52)
 
 ## Methods
 
@@ -98,9 +98,9 @@ Additional error details including component stack trace.
 
 #### Defined in
 
-[src/app/ErrorBoundary.tsx:76](https://github.com/mjleb/multilingual-react-mui-starter/blob/124b84c276384378be75af0ed2bc0212445e1836/src/app/ErrorBoundary.tsx#L76)
+[src/app/ErrorBoundary.tsx:76](https://github.com/mjleb/multilingual-react-mui-starter/blob/a8952bf59aef2b527f753160c05cc3112010bbf8/src/app/ErrorBoundary.tsx#L76)
 
-***
+---
 
 ### render()
 
@@ -120,9 +120,9 @@ The rendered UI based on the error state.
 
 #### Defined in
 
-[src/app/ErrorBoundary.tsx:84](https://github.com/mjleb/multilingual-react-mui-starter/blob/124b84c276384378be75af0ed2bc0212445e1836/src/app/ErrorBoundary.tsx#L84)
+[src/app/ErrorBoundary.tsx:84](https://github.com/mjleb/multilingual-react-mui-starter/blob/a8952bf59aef2b527f753160c05cc3112010bbf8/src/app/ErrorBoundary.tsx#L84)
 
-***
+---
 
 ### getDerivedStateFromError()
 
@@ -147,4 +147,4 @@ The new state of the component, indicating an error has occurred.
 
 #### Defined in
 
-[src/app/ErrorBoundary.tsx:66](https://github.com/mjleb/multilingual-react-mui-starter/blob/124b84c276384378be75af0ed2bc0212445e1836/src/app/ErrorBoundary.tsx#L66)
+[src/app/ErrorBoundary.tsx:66](https://github.com/mjleb/multilingual-react-mui-starter/blob/a8952bf59aef2b527f753160c05cc3112010bbf8/src/app/ErrorBoundary.tsx#L66)

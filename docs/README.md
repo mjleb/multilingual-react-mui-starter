@@ -1,6 +1,6 @@
 **multilingual-react-mui-starter v0.0.0**
 
-***
+---
 
 # Multilingual React MUI Starter
 

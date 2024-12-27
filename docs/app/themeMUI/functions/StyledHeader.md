@@ -1,6 +1,6 @@
 [**multilingual-react-mui-starter v0.0.0**](../../../README.md)
 
-***
+---
 
 [multilingual-react-mui-starter](../../../modules.md) / [app/themeMUI](../README.md) / StyledHeader
 
@@ -32,4 +32,4 @@ LMain CHeader styles
 
 ## Defined in
 
-[src/app/themeMUI.ts:53](https://github.com/mjleb/multilingual-react-mui-starter/blob/124b84c276384378be75af0ed2bc0212445e1836/src/app/themeMUI.ts#L53)
+[src/app/themeMUI.ts:53](https://github.com/mjleb/multilingual-react-mui-starter/blob/a8952bf59aef2b527f753160c05cc3112010bbf8/src/app/themeMUI.ts#L53)

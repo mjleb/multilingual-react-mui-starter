@@ -1,6 +1,6 @@
 [**multilingual-react-mui-starter v0.0.0**](../../../README.md)
 
-***
+---
 
 [multilingual-react-mui-starter](../../../modules.md) / [pages/routes](../README.md) / usePagesRoutes
 
@@ -29,4 +29,4 @@ The routes configuration for the application.
 
 ## Defined in
 
-[src/pages/routes.tsx:17](https://github.com/mjleb/multilingual-react-mui-starter/blob/124b84c276384378be75af0ed2bc0212445e1836/src/pages/routes.tsx#L17)
+[src/pages/routes.tsx:17](https://github.com/mjleb/multilingual-react-mui-starter/blob/a8952bf59aef2b527f753160c05cc3112010bbf8/src/pages/routes.tsx#L17)
