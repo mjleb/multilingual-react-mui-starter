@@ -29,4 +29,4 @@ The routes configuration for the application.
 
 ## Defined in
 
-[src/pages/routes.tsx:17](https://github.com/mjleb/multilingual-react-mui-starter/blob/32fa41d0cd2d5a379bf90c9ac2f70f1ee0b79d1d/src/pages/routes.tsx#L17)
+[src/pages/routes.tsx:17](https://github.com/mjleb/multilingual-react-mui-starter/blob/e892d688ddde20005d4112502bd1306a5cf2654c/src/pages/routes.tsx#L17)

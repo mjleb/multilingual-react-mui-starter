@@ -1,4 +1,4 @@
-import { createTheme } from '@mui/material';
+import { createTheme } from '@mui/material/styles';
 import { blue, grey } from '@mui/material/colors';
 import { styled, alpha } from '@mui/material/styles';
 import Toolbar from '@mui/material/Toolbar';
@@ -84,4 +84,15 @@ export const StyledFooter = styled(Toolbar)(({ theme }) => ({
   backgroundColor: alpha(theme.palette.background.default, 0.4),
   boxShadow: theme.shadows[1],
   padding: '8px 12px',
+}));
+
+/** ThemeSwitcher */
+export const StyledThemeSwitcher = styled(Toolbar)(({ theme }) => ({
+  verticalAlign: 'bottom',
+  display: 'inline-flex',
+  width: '2.25rem',
+  height: '2.25rem',
+  borderRadius: theme.shape.borderRadius,
+  border: '1px solid',
+  borderColor: theme.palette.divider,
 }));

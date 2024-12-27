@@ -1,5 +1,8 @@
 {
-  "message.welcome": "Dobrodošli!",
-  "language": "Jезик",
-  "pnotfound.a.name": "Vratite se na glavnu stranu"
+  "message.welcome": "Добродошли!",
+  "language": "Језик",
+  "pnotfound.a.name": "Вратите се на главну страну",
+  "themeswitcher.name.system": "Систем",
+  "themeswitcher.name.light": "Светло",
+  "themeswitcher.name.dark": "Тамно"
 }

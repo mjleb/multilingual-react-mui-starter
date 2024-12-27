@@ -2,13 +2,13 @@
 
 ***
 
-[multilingual-react-mui-starter](../../../modules.md) / [app/themeMUI](../README.md) / StyledFooter
+[multilingual-react-mui-starter](../../../modules.md) / [app/themeMUI](../README.md) / StyledThemeSwitcher
 
-# Function: StyledFooter()
+# Function: StyledThemeSwitcher()
 
-> **StyledFooter**(`props`, `deprecatedLegacyContext`?): `ReactNode`
+> **StyledThemeSwitcher**(`props`, `deprecatedLegacyContext`?): `ReactNode`
 
-LMain CFooter styles
+ThemeSwitcher
 
 ## Parameters
 
@@ -32,4 +32,4 @@ LMain CFooter styles
 
 ## Defined in
 
-[src/app/themeMUI.ts:75](https://github.com/mjleb/multilingual-react-mui-starter/blob/e892d688ddde20005d4112502bd1306a5cf2654c/src/app/themeMUI.ts#L75)
+[src/app/themeMUI.ts:90](https://github.com/mjleb/multilingual-react-mui-starter/blob/e892d688ddde20005d4112502bd1306a5cf2654c/src/app/themeMUI.ts#L90)

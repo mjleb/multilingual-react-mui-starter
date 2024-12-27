@@ -32,4 +32,4 @@ LMain CHeader styles
 
 ## Defined in
 
-[src/app/themeMUI.ts:53](https://github.com/mjleb/multilingual-react-mui-starter/blob/32fa41d0cd2d5a379bf90c9ac2f70f1ee0b79d1d/src/app/themeMUI.ts#L53)
+[src/app/themeMUI.ts:53](https://github.com/mjleb/multilingual-react-mui-starter/blob/e892d688ddde20005d4112502bd1306a5cf2654c/src/app/themeMUI.ts#L53)

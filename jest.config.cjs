@@ -15,5 +15,9 @@ module.exports = {
       },
     ],
   },
+  moduleNameMapper: {
+    '^@mui/material/(.*)$': '<rootDir>/node_modules/@mui/material/$1',
+    '^@mui/icons-material/(.*)$': '<rootDir>/node_modules/@mui/icons-material/$1',
+  },
   setupFilesAfterEnv: ['<rootDir>/src/__tests__/jest.setup.ts'],
 };

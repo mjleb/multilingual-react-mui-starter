@@ -5,7 +5,7 @@ import CFooterMain from '../components/CFooterMain';
 import { StyledLMainBox, StyledLMainContainer } from '../app/themeMUI';
 
 interface ILMainProps {
-  children: ReactNode; // Указываем, что children может быть любым узлом React
+  children: ReactNode;
 }
 
 const LMain: React.FC<ILMainProps> = ({ children }) => {

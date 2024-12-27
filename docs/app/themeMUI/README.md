@@ -16,3 +16,4 @@
 
 - [StyledFooter](functions/StyledFooter.md)
 - [StyledHeader](functions/StyledHeader.md)
+- [StyledThemeSwitcher](functions/StyledThemeSwitcher.md)

@@ -10,6 +10,7 @@ import Drawer from '@mui/material/Drawer';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
 import { StyledHeader, StyledHeaderAppBar } from '../app/themeMUI';
+import ThemeSwitcher from './mui/ThemeSwitcher';
 
 const CHeaderMain: React.FC = () => {
   const [open, setOpen] = React.useState(false);
@@ -64,8 +65,10 @@ const CHeaderMain: React.FC = () => {
             <Button color="primary" variant="contained" size="small">
               Sign up
             </Button>
+            <ThemeSwitcher />
           </Box>
           <Box sx={{ display: { xs: 'flex', md: 'none' }, gap: 1 }}>
+            <ThemeSwitcher size="medium" />
             <IconButton aria-label="Menu button" onClick={toggleDrawer(true)}>
               <MenuIcon />
             </IconButton>
