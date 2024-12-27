@@ -1,3 +1,4 @@
+import { CssBaseline } from '@mui/material';
 import { theme } from './app/themeMUI';
 import { Pages } from './pages';
 import { ThemeProvider } from '@mui/material/styles';
@@ -11,6 +12,7 @@ function App() {
   return (
     <>
       <ThemeProvider theme={theme} noSsr defaultMode="dark">
+        <CssBaseline enableColorScheme />
         <Pages />
       </ThemeProvider>
     </>

@@ -8,6 +8,7 @@
 
 - [App](App/README.md)
 - [app/ErrorBoundary](app/ErrorBoundary/README.md)
+- [app/themeMUI](app/themeMUI/README.md)
 - [components/i18n/WLanguageSwitcher](components/i18n/WLanguageSwitcher/README.md)
 - [i18n](i18n/README.md)
 - [pages/routes](pages/routes/README.md)

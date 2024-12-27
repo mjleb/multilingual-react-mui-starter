@@ -1,5 +1,8 @@
 import { ReactNode } from 'react';
 import { Box, Container } from '@mui/material';
+import CHeaderMain from '../components/CHeaderMain';
+import CFooterMain from '../components/CFooterMain';
+import { StyledLMainBox, StyledLMainContainer } from '../app/themeMUI';
 
 interface ILMainProps {
   children: ReactNode; // Указываем, что children может быть любым узлом React
@@ -8,32 +11,21 @@ interface ILMainProps {
 const LMain: React.FC<ILMainProps> = ({ children }) => {
   return (
     <>
-      <div>
-        <Box
-          id="hero"
-          sx={(theme) => ({
-            width: '100%',
-            backgroundRepeat: 'no-repeat',
-
-            backgroundImage: 'radial-gradient(ellipse 80% 50% at 50% -20%, hsl(210, 100%, 90%), transparent)',
-            ...theme.applyStyles('dark', {
-              backgroundImage: 'radial-gradient(ellipse 80% 50% at 50% -20%, hsl(210, 100%, 16%), transparent)',
-            }),
-          })}
+      <CHeaderMain />
+      <Box
+        sx={{
+          ...StyledLMainBox,
+        }}
+      >
+        <Container
+          sx={{
+            ...StyledLMainContainer,
+          }}
         >
-          <Container
-            sx={{
-              display: 'flex',
-              flexDirection: 'column',
-              alignItems: 'center',
-              pt: { xs: 14, sm: 20 },
-              pb: { xs: 8, sm: 12 },
-            }}
-          >
-            {children}
-          </Container>
-        </Box>
-      </div>
+          {children}
+        </Container>
+        <CFooterMain />
+      </Box>
     </>
   );
 };
