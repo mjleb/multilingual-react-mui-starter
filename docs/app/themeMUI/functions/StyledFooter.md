@@ -32,4 +32,4 @@ LMain CFooter styles
 
 ## Defined in
 
-[src/app/themeMUI.ts:76](https://github.com/mjleb/multilingual-react-mui-starter/blob/ca91143561b48da49085d72a39ca275cd51f61e7/src/app/themeMUI.ts#L76)
+[src/app/themeMUI.ts:76](https://github.com/mjleb/multilingual-react-mui-starter/blob/4001bafb94d61503cd015bd5c25feca82f64be32/src/app/themeMUI.ts#L76)
