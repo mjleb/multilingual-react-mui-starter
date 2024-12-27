@@ -63,7 +63,7 @@ The props for the ErrorBoundary component.
 
 #### Defined in
 
-[src/app/ErrorBoundary.tsx:52](https://github.com/mjleb/multilingual-react-mui-starter/blob/76e05b925fd2fa28fa57c7afd68d00a071acaf64/src/app/ErrorBoundary.tsx#L52)
+[src/app/ErrorBoundary.tsx:52](https://github.com/mjleb/multilingual-react-mui-starter/blob/685e468572dd042d91659159187443f6029a31f1/src/app/ErrorBoundary.tsx#L52)
 
 ## Methods
 
@@ -98,19 +98,19 @@ Additional error details including component stack trace.
 
 #### Defined in
 
-[src/app/ErrorBoundary.tsx:76](https://github.com/mjleb/multilingual-react-mui-starter/blob/76e05b925fd2fa28fa57c7afd68d00a071acaf64/src/app/ErrorBoundary.tsx#L76)
+[src/app/ErrorBoundary.tsx:76](https://github.com/mjleb/multilingual-react-mui-starter/blob/685e468572dd042d91659159187443f6029a31f1/src/app/ErrorBoundary.tsx#L76)
 
 ***
 
 ### render()
 
-> **render**(): `undefined` \| `null` \| `string` \| `number` \| `boolean` \| `Element` \| `Iterable`\<`ReactNode`\>
+> **render**(): `undefined` \| `null` \| `string` \| `number` \| `boolean` \| `Iterable`\<`ReactNode`\> \| `Element`
 
 Renders the fallback UI if an error has been caught. Otherwise, renders the child components.
 
 #### Returns
 
-`undefined` \| `null` \| `string` \| `number` \| `boolean` \| `Element` \| `Iterable`\<`ReactNode`\>
+`undefined` \| `null` \| `string` \| `number` \| `boolean` \| `Iterable`\<`ReactNode`\> \| `Element`
 
 The rendered UI based on the error state.
 
@@ -120,7 +120,7 @@ The rendered UI based on the error state.
 
 #### Defined in
 
-[src/app/ErrorBoundary.tsx:84](https://github.com/mjleb/multilingual-react-mui-starter/blob/76e05b925fd2fa28fa57c7afd68d00a071acaf64/src/app/ErrorBoundary.tsx#L84)
+[src/app/ErrorBoundary.tsx:84](https://github.com/mjleb/multilingual-react-mui-starter/blob/685e468572dd042d91659159187443f6029a31f1/src/app/ErrorBoundary.tsx#L84)
 
 ***
 
@@ -147,4 +147,4 @@ The new state of the component, indicating an error has occurred.
 
 #### Defined in
 
-[src/app/ErrorBoundary.tsx:66](https://github.com/mjleb/multilingual-react-mui-starter/blob/76e05b925fd2fa28fa57c7afd68d00a071acaf64/src/app/ErrorBoundary.tsx#L66)
+[src/app/ErrorBoundary.tsx:66](https://github.com/mjleb/multilingual-react-mui-starter/blob/685e468572dd042d91659159187443f6029a31f1/src/app/ErrorBoundary.tsx#L66)

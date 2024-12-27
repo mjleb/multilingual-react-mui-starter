@@ -1,3 +1,4 @@
+import LMain from '../layouts/LMain';
 import { usePagesRoutes } from './routes';
 import { useTranslation } from 'react-i18next';
 
@@ -9,5 +10,9 @@ export const Pages = () => {
     return <>loading</>;
   }
 
-  return <>{pages}</>;
+  return (
+    <>
+      <LMain>{pages}</LMain>
+    </>
+  );
 };
