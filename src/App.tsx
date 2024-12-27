@@ -1,4 +1,7 @@
+import { CssBaseline } from '@mui/material';
+import { theme } from './app/themeMUI';
 import { Pages } from './pages';
+import { ThemeProvider } from '@mui/material/styles';
 /**
  * The App component that renders a welcome message after the i18n initialization.
  * It displays "loading" until i18n is initialized and then shows the translated welcome message.
@@ -8,7 +11,10 @@ import { Pages } from './pages';
 function App() {
   return (
     <>
-      <Pages />
+      <ThemeProvider theme={theme} noSsr defaultMode="dark">
+        <CssBaseline enableColorScheme />
+        <Pages />
+      </ThemeProvider>
     </>
   );
 }
