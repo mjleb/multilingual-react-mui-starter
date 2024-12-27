@@ -1,3 +1,7 @@
+**multilingual-react-mui-starter v0.0.0**
+
+***
+
 # Multilingual React MUI Starter
 
 A boilerplate for building multilingual React applications with Material-UI (MUI), powered by Vite for fast development and i18next for internationalization.
