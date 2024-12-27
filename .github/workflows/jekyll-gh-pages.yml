@@ -49,6 +49,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      - name: Set up Git configuration
+        run: |
+          git config --global user.name "mjleb"
+          git config --global user.email "marina.j.lebedeva@gmail.com"
+
       - name: Deploy to GitHub Pages
         run: |
           npm install gh-pages --save-dev
