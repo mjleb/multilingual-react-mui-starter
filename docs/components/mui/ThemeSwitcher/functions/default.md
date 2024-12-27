@@ -41,4 +41,4 @@ return (
 
 ## Defined in
 
-[src/components/mui/ThemeSwitcher.tsx:32](https://github.com/mjleb/multilingual-react-mui-starter/blob/b578c9d042c584a379011e38acda43905c126b81/src/components/mui/ThemeSwitcher.tsx#L32)
+[src/components/mui/ThemeSwitcher.tsx:32](https://github.com/mjleb/multilingual-react-mui-starter/blob/124b84c276384378be75af0ed2bc0212445e1836/src/components/mui/ThemeSwitcher.tsx#L32)

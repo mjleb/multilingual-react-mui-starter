@@ -9,7 +9,6 @@ A boilerplate for building multilingual React applications with Material-UI (MUI
 - **React 18**: Latest React version with hooks and concurrent rendering.
 - **Material-UI**: Modern and customizable component library.
 - **Vite**: Super-fast build tool and dev server.
-- **MobX**: Simple and scalable state management.
 - **i18next**: Comprehensive internationalization and localization support.
 - **React Router v7**: Routing solution for modern React apps.
 - **TypeScript**: Type-safe development experience.
