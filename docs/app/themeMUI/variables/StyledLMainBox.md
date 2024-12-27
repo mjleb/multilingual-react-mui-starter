@@ -42,4 +42,4 @@ LMain styles
 
 ## Defined in
 
-[src/app/themeMUI.ts:34](https://github.com/mjleb/multilingual-react-mui-starter/blob/4001bafb94d61503cd015bd5c25feca82f64be32/src/app/themeMUI.ts#L34)
+[src/app/themeMUI.ts:34](https://github.com/mjleb/multilingual-react-mui-starter/blob/b578c9d042c584a379011e38acda43905c126b81/src/app/themeMUI.ts#L34)

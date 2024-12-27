@@ -12,7 +12,6 @@ import WLanguageSwitcherMUI from './WLanguageSwitcherMUI';
  * language buttons when i18n is not initialized, and highlighting the active
  * language in the menu.
  *
- * @group WLanguageSwitcherMUI
  */
 jest.mock('react-i18next', () => ({
   useTranslation: jest.fn(),

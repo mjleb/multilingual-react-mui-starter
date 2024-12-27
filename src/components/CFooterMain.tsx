@@ -1,5 +1,6 @@
 import { Container, Typography } from '@mui/material';
 import { StyledFooter } from '../app/themeMUI';
+import Link from '@mui/material/Link';
 
 const CFooterMain: React.FC = () => {
   function Copyright() {
@@ -11,7 +12,10 @@ const CFooterMain: React.FC = () => {
           color: 'text.secondary',
         }}
       >
-        © 2023 - {new Date().getFullYear()}
+        © {new Date().getFullYear()}{' '}
+        <Link href="https://github.com/mjleb" color="inherit" variant="body2">
+          github.com/mjleb
+        </Link>
       </Typography>
     );
   }
